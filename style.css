@@ -13,6 +13,7 @@ body {
 }
 
 .progress-bar-fill {
+   width: 100%;
    height: 100%;
    background: #59ea63;
    transition: width 0.5s;
