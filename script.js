@@ -2,6 +2,7 @@ class ProgressBar {
    constructor(element, initialValue = 0) {
       this.valueElem = element.querySelector(".progress-bar-value");
       this.fillElem = element.querySelector(".progress-bar-fill");
+      
       this.setValue(initialValue);
    }
 
@@ -26,4 +27,4 @@ class ProgressBar {
    }
 }
 
-new ProgressBar(document.querySelector(".progress-bar"), 60);
+const progressBar = new ProgressBar(document.querySelector(".progress-bar"), 60);
